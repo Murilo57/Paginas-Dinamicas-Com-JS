@@ -2,11 +2,19 @@
 const testeBoolean = true;
 
 function numeroPar() {
-    const numero = 10
+    const numero = 11
     const numeroPar = (numero % 2) === 0 
 
     console.log(numeroPar)
+
+    if (numeroPar) {
+        console.log('Par')
+    }
+    else {
+        console.log('Impar')
+    }
 }
+
 
 function initialize() {
 
