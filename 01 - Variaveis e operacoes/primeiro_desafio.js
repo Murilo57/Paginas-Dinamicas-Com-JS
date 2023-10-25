@@ -11,10 +11,10 @@ Imprima no console o valor que será gasto de combustivel para realizar esta via
 
 //Variaveis de entrada 
 const precoCombustivel = 5.79;
-const kmPorLitros      = 16;
-const distanciaEmKm0   = 100;
+const kmPorLitros      = 10;
+const distanciaEmKm   = 100;
 
-const litrosConsulmidos = distanciaEmKm0 / kmPorLitros
+const litrosConsulmidos = distanciaEmKm / kmPorLitros
 
 let valorGasto = litrosConsulmidos * precoCombustivel
 
