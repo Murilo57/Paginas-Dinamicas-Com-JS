@@ -9,8 +9,16 @@ Você terá 3 variaveis. Sendo elas:
 Imprima no console o valor que será gasto de combustivel para realizar esta viagem
 */
 
-const pretoCombustivel = 5.79;
-const kmPorLitros      = 10;
-const distancia        = 100;
+//Variaveis de entrada 
+const precoCombustivel = 5.79;
+const kmPorLitros      = 16;
+const distanciaEmKm0   = 100;
 
+const litrosConsulmidos = distanciaEmKm0 / kmPorLitros
+
+let valorGasto = litrosConsulmidos * precoCombustivel
+
+console.log(`Seu carro gasta uma média de `+litrosConsulmidos)
+console.log(valorGasto.toFixed(2))
+                //O metodo .toFixed(2) ira fixar 2 casas decimais 
 
